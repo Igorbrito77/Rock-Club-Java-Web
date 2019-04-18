@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+	<title>Cadastrar Evento</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<link rel="shortcut icon" href="bootstrap/img/guitar-icon.png" sizes="32x32" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				
+			    <div class="navbar-header">
+			    	<!-- LOGO -->
+			    	<a href="#" alt="betabase - home" title="Home"><img id="logo" src="bootstrap/img/logo2.png"></a>
+
+			    	<!-- SMARTPHONE  só aleterou a cor da barra de menu. A cor é btanca ou preta por padrão -->
+					<button type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_lista" aria-expanded="false">
+						<span style="background-color:#9bbd46" class="icon-bar"></span>
+						<span style="background-color:#9bbd46" class="icon-bar"></span>
+						<span style="background-color:#9bbd46" class="icon-bar"></span>
+					</button>
+					
+			    </div>
+
+				<div class="collapse navbar-collapse" id="menu_lista">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="link_menu"><a href="/">Início</a></li>
+						<li class="link_menu"><a href="/eventos">Eventos</a></li>
+						<li class="link_menu"><a href="/cadastrarEvento">Cadastrar Evento</a></li>
+						<li class="link_menu"><a href="#help">Ajuda</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+	</header>	
+
+
+	<h1>Cadastro de eventos:</h1>
+	
+	<form method= "post">
+	  
+	  <div class="form-group">
+	    <label>Nome do Evento</label>
+	    <input type="text" class="form-control" placeholder="Nome do evento" name = "name">
+	    <small class="form-text text-muted">Nome descritivo.</small>
+	  </div>
+
+	   <div class="form-group">
+	    <label>Local</label>
+	    <input type="text" class="form-control" placeholder="Local" name = "place">
+	    <small class="form-text text-muted">Inserir a localização de um dos nosso clubes.</small>
+	  </div>
+
+	   <div class="form-group">
+	    <label>Data</label>
+	    <input type="date" class="form-control" placeholder="Data" name = "date">
+	  </div>
+
+	  <div class="form-group">
+	    <label>Horário</label>
+	    <input type="text" class="form-control"  placeholder="Horário" name = "time">
+	  </div> 
+
+
+	  <button type="submit" class="btn btn-primary">Salvar</button>
+	</form>
+
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"><a href="#"><img id="logo" src="bootstrap/img/logo2.png"></a></div>
+				<div class="col-md-1 lista_footer"><a href="#">Sobre</a></div>
+				<div class="col-md-1 lista_footer"><a href="#">Navegar</a></div>
+				<div class="col-md-1 lista_footer"><a href="#">Buscar</a></div>
+				<div class="col-md-1 lista_footer"><a href="#">Ajuda</a></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p>© 2019 Blade Rock Show Club | Todos os direitos reservados. Construido por <a href="#">Igor Brito</a>.</p>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery -->
+	    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+	</footer>
+
+	
+</body>
+
+</html>

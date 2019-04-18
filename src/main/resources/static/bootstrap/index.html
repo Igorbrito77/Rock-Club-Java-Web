@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blade Rock Show</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/guitar-icon.png" sizes="32x32" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<header>
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			
+		    <div class="navbar-header">
+		    	<!-- LOGO -->
+		    	<a href="#" alt="betabase - home" title="Home"><img id="logo" src="img/logo2.png"></a>
+
+		    	<!-- SMARTPHONE  só aleterou a cor da barra de menu. A cor é btanca ou preta por padrão -->
+				<button type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_lista" aria-expanded="false">
+					<span style="background-color:#9bbd46" class="icon-bar"></span>
+					<span style="background-color:#9bbd46" class="icon-bar"></span>
+					<span style="background-color:#9bbd46" class="icon-bar"></span>
+				</button>
+				
+		    </div>
+
+			<div class="collapse navbar-collapse" id="menu_lista">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="link_menu"><a href="?i=sobre">Sobre</a></li>
+					<li class="link_menu"><a href="?i=navegar">Navegar</a></li>
+					<li class="link_menu"><a href="?i=blast">BLAST</a></li>
+					<li class="link_menu"><a href="#help">Ajuda</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+</header>
+
+<div id="main">
+	<div class="container">
+		<div class="row ">
+			<div class="col-md-7 col-xs-12">
+				<div id="meu_carrossel" class="carousel slide" data-ride="carousel">
+
+					<!-- PONTOS REPRESENTATIVOS DE IMAGENS -->
+					<ol class="carousel-indicators">
+    					<li data-target="#meu_carrossel" data-slide-to="0" class="active"></li>
+    					<li data-target="#meu_carrossel" data-slide-to="1"></li>
+    					<li data-target="#meu_carrossel" data-slide-to="2"></li>
+  					</ol>
+
+					<!-- IMAGENS -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/1.jpg" class="img-thumbnail center" alt="Metallica no Rio">
+							<div class="carousel-caption">
+								<strong>Metallica de volta ao Rio em 2020</strong>
+							</div>
+						</div>
+					
+						<div class="item">
+							<img src="img/2.jpg" class="img-thumbnail"  alt="Megadeth no Brasil.">
+							<div class="carousel-caption">
+								<strong>Megadeth anuncia novos shows no Brasil</strong>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="img/3.jpg" class="img-thumbnail"  alt="Novo disco em breve.">
+							<div class="carousel-caption">
+								<strong>Iron Maiden em produção de novo disco</strong>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- CONTROLES -->
+					<a class="left carousel-control" href="#meu_carrossel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a class="right carousel-control" href="#meu_carrossel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Próximo</span>
+					</a>
+				</div>
+			</div>
+
+			<div class = "col-md-5 col-xs-12">
+				<div class = "item"  id = "anuncio" data-ride="carousel">
+						<img src= "img/band.jpg"  class="img-thumbnail"  alt="Megadeth no Brasil.">
+
+						<div class="carousel-caption">
+							<strong>Cadastre um evento no melhor Rock Club da América !</strong>
+						</div>
+				</div>
+			</div>
+
+		
+		</div>
+	</div>
+</div>
+
+<div id = "middle">
+	<div class = "container">
+		<div class = "row">
+			
+			<div class = "col-sm-6 col-md-4">
+				<div class = "thumbnail">
+					<img src= "img/logo1.png" class = "img-thumbnail">
+
+				</div>
+				<div class = "caption">
+					<h3>Sobre</h3> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula. Mauris pretium magna nec porttitor vulputate.
+					</p> 
+					<p><a href="#" class="btn btn-primary" role="button">Botão</a> 
+				</div>
+			</div>
+		
+
+			<div class = "col-sm-6 col-md-4">
+				<div class = "thumbnail">
+					<img src= "img/logo1.png" class = "img-thumbnail">
+
+				</div>
+				<div class = "caption">
+					<h3>Sobre</h3> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula. Mauris pretium magna nec porttitor vulputate.
+					</p> 
+					<p><a href="#" class="btn btn-primary" role="button">Botão</a> 
+				</div>
+			</div>
+
+
+			<div class = "col-sm-6 col-md-4">
+				<div class = "thumbnail">
+					<img src= "img/logo1.png" class = "img-thumbnail">
+
+				</div>
+				<div class = "caption">
+					<h3>Sobre</h3> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula. Mauris pretium magna nec porttitor vulputate.
+					</p> 
+					<p><a href="#" class="btn btn-primary" role="button">Botão</a> 
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"><a href="#"><img id="logo" src="img/logo2.png"></a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Sobre</a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Navegar</a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Buscar</a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Ajuda</a></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p>© 2019 Blade Rock Show Club | Todos os direitos reservados. Construido por <a href="#">Igor Brito</a>.</p>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</footer>
+
+
+</body>
+
+
+
+</html>
